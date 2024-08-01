@@ -1,0 +1,43 @@
+* body {
+  background-color: #777;
+}
+#wrappers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.lightWrapper {
+  display: inline-block;
+  flex-basis: 1;
+}
+
+#green {
+  background-color: #4a644a;
+}
+
+#green:hover {
+  background-color: #00ff00;
+}
+
+#amber {
+  background-color: #645d4a;
+}
+#amber:hover {
+  background-color: #ffbb00;
+}
+
+#red {
+  background-color: #644a4a;
+}
+
+#red:hover {
+  background-color: #ff0000;
+}
